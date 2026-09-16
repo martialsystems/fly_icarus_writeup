@@ -329,7 +329,7 @@ def build() -> Path:
     story.append(Paragraph("Revisions (2026-09-16)", st["H"]))
     story.append(
         Paragraph(
-            "2026-09-16: first note. Argument compiled from locked trees @2cf5fd6, @45aa064, @e16856c / @41437dc, @de95257, @01155c3. Index gist 12835f74 left unedited.",
+            "2026-09-16: first note from the locked trees. Same day: dropped the Not-stack; sentences taken from the lock files. Index gist 12835f74 left unedited.",
             st["BodyJ0"],
         )
     )
