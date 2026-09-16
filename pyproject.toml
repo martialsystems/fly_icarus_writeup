@@ -1,0 +1,8 @@
+[project]
+name = "fly-icarus-writeup"
+version = "0.1.0"
+description = "Note on the fly_icarus chain. Not a finding."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
