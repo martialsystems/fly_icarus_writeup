@@ -1,6 +1,6 @@
 # fly_icarus chain: note
 
-Locks stay on the trees. Index: gist [12835f74](https://gist.github.com/martialsystems/12835f747d6360781f3cc7f91f243178).
+Locks stay on the trees. Index: gist [12835f74](https://gist.github.com/martialsystems/12835f747d6360781f3cc7f91f243178). Object of study for `fly_icarus` is constrained toy dynamics on named types. Hop-1 trees from `fly_p1_sign` onward are connectome measurements. Falsifier on the 11-cell slice: condition 3 not matching condition 1 when HD-on / cVA-off.
 
 ## Abstract
 

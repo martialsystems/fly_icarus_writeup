@@ -22,6 +22,7 @@ def test_note_lede() -> None:
     assert "What it is not" not in text
     assert "Not MaleCNS" not in text
     assert "Not a playground" not in text
+    assert "citation columns" in (REPO / "AGENTS.md").read_text(encoding="utf-8")
     assert "unfreeze" in text.lower()
     assert "n 1000" in text or "`--n 1000`" in text
     assert "—" not in text
