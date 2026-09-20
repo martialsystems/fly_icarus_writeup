@@ -69,4 +69,12 @@ Figure 1 (`figures/stack.png`): object tags to the 11-cell row to hop-1 counts t
 
 ![Figure 1. Pointer stack across the locked trees.](figures/stack.png)
 
+## Sources (2026-09-20)
+
+Records checked on Crossref, 2026-09-20. Female parent count is FlyWire. Male hop-1 counts are MaleCNS. The 11-cell row is a published-sign schema, not a hop-count extract.
+
+Berg, S., Beckett, I. R., Costa, M., Schlegel, P., Januszewski, M., Marin, E. C., Nern, A., et al. (2026). Sexual dimorphism in the complete Drosophila male central nervous system connectome. Cell, 189(18), 5504-5526.e15. https://doi.org/10.1016/j.cell.2026.08.015
+
+Dorkenwald, S., Matsliah, A., Sterling, A. R., Schlegel, P., Yu, S. C., McKellar, C. E., Lin, A., et al. (2024). Neuronal wiring diagram of an adult brain. Nature, 634(8032), 124-138. https://doi.org/10.1038/s41586-024-07558-y
+
 Index (pointers only): https://gist.github.com/martialsystems/12835f747d6360781f3cc7f91f243178

@@ -30,8 +30,10 @@ def test_note_lede() -> None:
     for sha in SHAS:
         assert sha in text
     assert "hd_on_cva_off_ns" in text
+    assert "10.1016/j.cell.2026.08.015" in text
+    assert "10.1038/s41586-024-07558-y" in text
     words = re.findall(r"[A-Za-z0-9][A-Za-z0-9'./_-]*", text)
-    assert 700 <= len(words) <= 1400
+    assert 700 <= len(words) <= 1800
 
 
 def test_readme_points_at_note_and_index() -> None:
@@ -60,5 +62,7 @@ def test_pdf_and_figure_exist() -> None:
     assert "01155c3" in text
     assert "Revisions" in text
     assert "2026-09-16" in text
+    assert "2026-09-20" in text
+    assert "10.1016/j.cell.2026.08.015" in text
     assert "Keywords" in text
     assert len(pdf) >= 2

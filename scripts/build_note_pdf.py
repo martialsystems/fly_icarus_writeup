@@ -333,6 +333,12 @@ def build() -> Path:
             st["BodyJ0"],
         )
     )
+    story.append(
+        Paragraph(
+            "2026-09-20: sources for MaleCNS (Berg et al., 2026) and FlyWire (Dorkenwald et al., 2024).",
+            st["BodyJ0"],
+        )
+    )
 
     doc = SimpleDocTemplate(
         str(OUT),
