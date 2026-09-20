@@ -32,6 +32,11 @@ def test_note_lede() -> None:
     assert "hd_on_cva_off_ns" in text
     assert "10.1016/j.cell.2026.08.015" in text
     assert "10.1038/s41586-024-07558-y" in text
+    assert "No AI tool is an author" in text
+    assert "science-2cf5fd6" in text
+    assert "swh:1:snp:f0619c4c7ef5bc90965f630063cd254ce48bba58" in text
+    assert "10.5281" not in text
+    assert "not a software deposit" in text.lower() or "not a software deposit" in text
     words = re.findall(r"[A-Za-z0-9][A-Za-z0-9'./_-]*", text)
     assert 700 <= len(words) <= 1800
 
@@ -63,6 +68,8 @@ def test_pdf_and_figure_exist() -> None:
     assert "Revisions" in text
     assert "2026-09-16" in text
     assert "2026-09-20" in text
+    assert "10.5281" not in text
+    assert "No AI tool is an author" in text
     assert "10.1016/j.cell.2026.08.015" in text
     assert "Keywords" in text
     assert len(pdf) >= 2

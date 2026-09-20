@@ -335,7 +335,7 @@ def build() -> Path:
     )
     story.append(
         Paragraph(
-            "2026-09-20: sources for MaleCNS (Berg et al., 2026) and FlyWire (Dorkenwald et al., 2024).",
+            "2026-09-20: sources for MaleCNS (Berg et al., 2026) and FlyWire (Dorkenwald et al., 2024). Accountability sentence. Cite tag science-2cf5fd6. No DOI. This PDF is not a software deposit.",
             st["BodyJ0"],
         )
     )
